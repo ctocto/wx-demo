@@ -1,0 +1,19 @@
+<view hover-class="tap-top-tip" class="top-tip container">
+    <text class="tip-txt">{{topTip.before}}<text class="hot-green-txt">{{topTip.num}}</text>{{topTip.after}}</text>
+</view>
+<view class="item-list">
+    <view class="item" wx:for="{{goods}}" bindtap="orderFun">
+        <view class="icon">
+            
+        </view>
+        <view class="info">
+            <view class="info-top-box">
+                <text class="car-type">{{item.type}}</text>
+                <text class="car-price"><text class="hot-red-txt">{{item.price}}</text>元(5公里)</text>
+            </view>
+            <text class="car-load">载重:{{item.load}}</text>
+            <text class="car-size">长*宽*高高:{{item.size}}</text>
+            <text class="car-exceed">超公里费费:{{item.exceed}}</text>
+        </view>
+    </view>
+</view>

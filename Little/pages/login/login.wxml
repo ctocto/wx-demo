@@ -1,0 +1,10 @@
+<form>
+    <view>
+        <label class="input-wrap"><text class="phone-label">手机号码</text><input class="phone" maxlength="11" type="number" placeholder="填写手机号码" auto-focus bindchange="bindChange" value="{{inputValue}}"/><text class="get-verify" bindtap="getVerify">{{verityTxt}}</text></label>
+        <label class="input-wrap"><text class="verify-label">验证码</text><input class="verify" maxlength="6" type="number" placeholder="输入验证码"/></label>
+        <button class="submit" form-type="submit" type="primary" bindtap="submitHandle">登录</button>
+        <view class="clause-wrap">
+            <text>点击登录，即表示已阅读并同意</text><navigator url="url">《用车服务条款》</navigator>
+        </view>
+    </view>
+</form>

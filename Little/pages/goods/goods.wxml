@@ -1,0 +1,26 @@
+<form>
+    <view>
+        <label class="input-wrap">
+            <text class="input-label">起</text>
+            <input class="input" type="text" value="{{location.start}}"/>
+            <text class="select-map" bindtap="selectMapS">地图</text>
+        </label>
+        <label class="input-wrap">
+            <text class="input-label">始</text>
+            <input class="input" type="text" value="{{location.end}}"/>
+            <text class="select-map" bindtap="selectMapE">地图</text>
+        </label>
+        <label class="input-wrap">
+            <text class="input-label">货</text>
+            <picker mode="selector" bindchange="bindpickerchange" value="{{index}}" class="input" range="{{goodsName}}">
+                <view class="picker">
+                {{goodsName[index]}}
+                </view>
+            </picker>
+            <text class="padding"></text>
+        </label>
+    </view>
+    <view class="btn-box">
+        <button type="primary" plain>立即用车</button>
+    </view>
+</form>

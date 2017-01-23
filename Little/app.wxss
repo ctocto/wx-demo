@@ -1,0 +1,16 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+view, text, p, span {
+  font-family: PingFangSC-Regular,Helvetica,"Droid Sans",Arial,sans-serif;
+}
+.hot-red-txt{
+    color: red;
+}
+.hot-green-txt{
+  color: limegreen
+}

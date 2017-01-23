@@ -1,0 +1,54 @@
+.map-box{
+    position: relative;
+    height: 100vh;
+}
+.map-box #carMap{
+    width: 100%;
+    height: 100%;
+}
+.map-box .btn-shop{
+    position: absolute;
+    z-index: 100;
+    left: 35vw;
+    bottom: 5vh;
+    width: 30vw;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    border: 1rpx solid green;
+    border-radius: 1em;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+}
+.map-box .to-origin{
+    position: fixed;
+    z-index: 100;
+    left: 5vw;
+    bottom: 5vh;
+    width: 2rem;
+    height: 2rem;
+    background:rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+}
+.map-box .to-origin::after{
+    position: absolute;
+    z-index: 101;
+    left: 0.4rem;
+    top: 0.4rem;
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #666;
+    border-radius: 100%;
+}
+.map-box .to-origin::before{
+    position: absolute;
+    z-index: 101;
+    left: 0.75rem;
+    top: 0.75rem;
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #000;
+    border-radius: 100%;
+}

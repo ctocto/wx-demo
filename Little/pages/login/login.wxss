@@ -1,0 +1,47 @@
+page{
+    background: #F8F8F8;
+}
+.input-wrap{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .5rem 0;
+    border-top: 1rpx solid #ccc;
+    border-bottom: 1rpx solid #ccc;
+    background: #fff;
+}
+.input-wrap:first-child{
+    border-bottom: 0;
+    margin-top: 1rem;
+}
+.input-wrap text{
+    vertical-align: middle;
+}
+.input-wrap .phone-label,.input-wrap .get-verify,.input-wrap .verify-label{
+    flex: 1;
+    text-align: center;
+}
+.input-wrap .phone{
+    flex: 2;
+    text-align: left;
+}
+.input-wrap .verify{
+    flex: 3;
+    text-align: left;
+}
+.submit{
+    margin: 2rem auto 1rem;
+    width: 80vw;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.clause-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+.clause-wrap navigator{
+    color: blue;
+}

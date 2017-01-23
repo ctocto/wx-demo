@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/indexmap/indexmap",
+    "pages/logs/logs",
+    "pages/selcar/selcar",
+    "pages/login/login",
+    "pages/goods/goods"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat of Hefan",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor": "#eeeeee"
+  }
+}

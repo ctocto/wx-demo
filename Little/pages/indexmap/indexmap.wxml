@@ -1,0 +1,5 @@
+<view class="container map-box">
+    <map longitude="{{origin.lo}}" latitude="{{origin.la}}" id="carMap" controls="{{controls}}" scale="15" show-location="true" markers="{{points}}" bindcontroltap="ctrlHandle" bindregionchange="bindregion"/>
+    <!--<a href="javascript:;" class="btn-shop" bindtap="bindViewTo">{{btnStatus.txt}}</a>-->
+    <!--<span class="to-origin" bindtap="moveToLocation"></span>-->
+</view>
