@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/catvideo/catvideo",
+    "pages/index/index",
+    "pages/info/info"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "black"
+  },
+  "tabBar": {
+    "color": "#C3C3C3",
+    "selectedColor": "#222",
+    "backgroundColor": "#000",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/catvideo/catvideo",
+      "text": "Quan",
+      "iconPath": "pages/images/quan.png",
+      "selectedIconPath": "pages/images/quan1.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "Juan",
+      "iconPath": "pages/images/juan.png",
+      "selectedIconPath": "pages/images/juan1.png"
+    }]
+  }
+}

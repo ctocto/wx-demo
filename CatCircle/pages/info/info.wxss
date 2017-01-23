@@ -1,0 +1,66 @@
+page{
+    background: #000;
+}
+.video-wrap video{
+    width: 100vw;
+}
+.video-wrap .video-padding{
+    padding: 0.8rem 0;
+    border-bottom: 1rpx solid #222;
+}
+.video-wrap .top-box{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0.5rem 0.5rem;
+}
+.video-wrap .top-box .touIcon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 0.3rem;
+}
+.video-wrap .touIcon image{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.video-wrap .author-box{
+    display: flex;
+    flex-direction: column;
+}
+.video-wrap .author-box .author{
+    font-size: 0.9rem;
+    color: #C3C3C3;
+    margin: 0.3rem 0;
+}
+.video-wrap .author-box .show-date{
+    font-size: 0.8rem;
+    color: #666;
+}
+.video-wrap .info{
+    margin: 0 0.5rem;
+}
+.video-wrap .content{
+    margin: 0.5rem 0;
+    color: #C3C3C3;
+}
+.video-wrap .view-data{
+    font-size: 0.8rem;
+    color: #888;
+    padding:0.3rem 0;
+}
+.video-wrap .view-data .praie{
+    margin-left: 1rem;
+}
+.video-wrap .fun-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.video-wrap .fun-box text{
+    color: #C3C3C3;
+}
+.load-more-wrap .load-more{
+    color: #fff;
+}

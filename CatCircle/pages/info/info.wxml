@@ -1,0 +1,28 @@
+<view class="video-wrap">
+    <view wx:for="{{videoSrc}}" class="video-padding">
+        <view class="top-box">
+            <view class="touIcon">
+                <image src="{{item.avatar}}" mode="aspectFill"></image>
+            </view>
+            <view class="author-box">
+                <text class="author">{{item.author}}</text>
+                <text class="show-date">{{item.createdAt}}</text>
+            </view>
+        </view>
+        <video src="{{item.src}}" controls="true" bindpause="pauseHandle" bindplay="playHandle" id="{{index}}" data-dataId="{{item.id}}"></video>
+        <view class="info">
+            <text class="content">{{item.title}}</text>
+            <view class="view-data">
+                <text>浏览量 {{item.view}}</text>
+                <text class="praie">赞 {{item.praie}}</text>
+            </view>
+        </view>
+        <view class="fun-box">
+            <text class="praise-d" bindtap="likeHandle" data-videoPraie="{{item.praie}}" id="{{item.id}}" data-videoId="{{index}}">赞</text>
+            <text class="transpond" data-downloadUrl="{{item.src}}" bindtap="downloadHandle">下载</text>
+        </view>
+    </view>
+</view>
+<view class="load-more-wrap">
+    <button type="default" plain class="load-more" bindtap="loadMore">{{loadMoreBtn}}</button>
+</view>

@@ -1,0 +1,103 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+ width: 100vw;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 10px solid #aaa;
+  border-bottom: 10px solid #aaa;
+}
+.usermotto .usermotto-padding{
+    width: 98%;
+}
+.usermotto .usermotto-padding video{
+    width: 100%;
+}
+.usermotto textarea{
+    padding:0.3rem 0.3rem;
+}
+.container .video-padding{
+    padding: 0.8rem 0;
+    border-bottom: 1rpx solid #222;
+    background: #000;
+}
+.container .video-padding video{
+    width: 100%;
+}
+.container .top-box{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0.5rem 0.5rem;
+}
+.container .top-box .touIcon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.container .touIcon image{
+    display: block;
+    width: 100%;
+}
+.container .author-box{
+    display: flex;
+    flex-direction: column;
+}
+.container .author-box .author{
+    font-size: 0.9rem;
+    color: #C3C3C3;
+    margin: 0.3rem;
+}
+.container .author-box .show-date{
+    font-size: 0.8rem;
+    color: #666;
+}
+.container .info{
+    margin: 0 0.5rem;
+}
+.container .content{
+    margin: 0.5rem 0;
+    color: #C3C3C3;
+}
+.container .view-data{
+    font-size: 0.8rem;
+    color: #888;
+    padding:0.3rem 0;
+}
+.container .view-data .praie{
+    margin-left: 1rem;
+}
+.container .fun-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container .fun-box text{
+    color: #C3C3C3;
+}
+.load-more-wrap{
+    background: #000;
+}
+.load-more-wrap .load-more{
+    color: #fff;
+}

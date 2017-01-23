@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "猫圈",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "light"
+}
